@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +18,7 @@
     --sherpa-blue: #004950;
     --topaz: #13BBAF;
     --beetle-green: #4C787E;
+    --regent-grey: #7F909F;
 }
 
 body{
@@ -117,3 +120,44 @@ main{
         }
     }
 }
+
+.results {
+    background: var(--sherpa-blue);
+    padding: 4rem 2.4rem 2.4rem;
+    border-radius: 1.5rem;
+
+    div{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        align-items: center;
+    }
+
+    p {
+        color: var(--white);
+        font-weight: 700;
+
+        span{
+            font-size: 1.3rem;
+            color: var(--regent-grey);
+        }
+    }
+
+    strong{
+        color: var(--topaz);
+        font-size: 3.2rem;
+    }
+
+    button{
+        width: 100%;
+        padding: .9rem;
+        border: none;
+        background: var(--topaz);
+        color: var(--sherpa-blue);
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 2rem;
+        border-radius: .5rem;
+    }
+}
+
