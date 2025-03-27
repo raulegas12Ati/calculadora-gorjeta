@@ -99,6 +99,10 @@ main{
                 border-radius: 5px;
             }
 
+            .button-selected{
+                background: var(--topaz);
+            }
+
             input{
                 width: 100%;
                 background: var(--squeeze);
