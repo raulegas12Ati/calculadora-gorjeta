@@ -17,6 +17,7 @@ function receiveTipPercetageValue(value){
     removeButtonSelectedClass()
 
     let customTipInput = document.querySelector("#custom-tip")
+    value = customTipInput
 
     if(customTipInput!== ""){
         customTipInput.value = ""
@@ -33,7 +34,7 @@ function receiveCustomTipPercentageValue(){
     removeButtonSelectedClass()
     buttonSelected = null
 
-    tipPorcentagem = document.querySelector("#custom-tip").valueAsNumber / 100
+    tipPercentage = document.querySelector("#custom-tip").valueAsNumber / 100
     calculate()
 }
 
